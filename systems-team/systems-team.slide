@@ -11,13 +11,13 @@ Systems Team Lead
 Why _this_presentation?_
 
 - 'Word of mouth' culture doesn't scale with Engineering's growth
-: Everyone's not on the same page
-: big game of telephone
+: Everyone's not on the same page.
+: Big game of telephone.
 - Geographically dispersed team 
-: Wes lives in Oakland
-: end the rumor that Mike's actually a python script we made
+: Wes lives in Oakland.
+: End the rumor that Mike's actually a python script we made.
 - Clear up who's on the Systems Team and what they do
-: I Hope *fingers crossed*
+: I Hope. *fingers crossed*
 
 * Who are the Systems Team?
 
@@ -38,27 +38,27 @@ _But_some_of_us_have_different_roles..._
 The "Systems Engineering" team has _systems_engineers_
 
 - "Systems engineers" is a fancy word for 'sysadmins with a focus on distributed systems'
-: analogy of  Sysadmin SRE evolution.
+: Analogy of  Sysadmin SRE evolution.
 
 - Every Systems team member is a "Systems Engineer"
-: in the sense of the word, everyone is a systems engineer. but some have special roles
+: In the sense of the word, everyone is a systems engineer, but some have special roles.
 
 - Strong background in systems administration and Internet technologies
-: internet technologies like DNS, Layer 1-4 networking, HTTP
+: Internet technologies like DNS, Layer 1-4 networking, HTTP.
 
 - Intermediate programming skills
-: strong seperation from 'sysadmin'. Configuration management and programming aptitude
+: Strong seperation from 'sysadmin'. Configuration management and programming aptitude.
 
 * What do they do?
 .image images/teams.png _ 800
-: That's still pretty ambiguous
-: an overly simplistic model of Engineering silos that is totally a straw man argument
+: That's still pretty ambiguous.
+: An overly simplistic model of Engineering silos that is totally a straw man argument.
 
 * What do they do?
 .image images/teams-with-systems.png _ 800
-: here it is with the pieces that Systems is responsible or plays a part in the task
-: the teal parts stitch together the different silos
-: Generally I expect a systems engineer to be able to work in any of those teal areas
+: Here it is with the pieces that Systems is responsible or plays a part in the task.
+: The teal parts stitch together the different silos.
+: Generally I expect a systems engineer to be able to work in any of those teal areas.
 
 * What do they do?
 Mike
@@ -66,16 +66,16 @@ Mike
 - SoftLayer operations
 - Server Requests
 - Internal development
-: ansible playbooks
-: maintainer of our vm creation software
+: Ansible playbooks.
+: Maintainer of our vm creation software.
 
 * What do they do?
 Camilo
 
 - AWS infrastructure buildout
 - Internal development
-: AWS infrastructure automation
-: When AWS is out of beta, Mike and Camilo will have better cross training
+: AWS infrastructure automation.
+: When AWS is out of beta, Mike and Camilo will have better cross training.
 
 * What do they do?
 Wes
@@ -84,7 +84,7 @@ Systems Team Lead
 
 - Project management
 - Technical direction
-: Kinda like a "Project Owner" for SteelHouse internal development
+: Kinda like a "Project Owner" for SteelHouse internal development.
 
 Systems Engineer
 
@@ -103,19 +103,19 @@ Jim
 Aiman
 
 - Core Team Systems Engineer
-: Systems Engineer embedded with Core
-: new unique role
-: idea is someone to manage the software Core uses, but didn't write themselves
+: Systems Engineer embedded with Core.
+: New unique role.
+: Idea is someone to manage the software Core uses, but didn't write themselves.
 - Internal development
 
 * When do they do it?
 * When do they do it?
 - Reactive
-: a lot of our stuff is request based. You need a thing we give you a thing.
+: A lot of our stuff is request based. You need a thing we give you a thing.
 - ad hoc emergency teams
-: emergency response team along with members from the impacted team
+: Emergency response team along with members from the impacted team.
 - More proactive/planned workflows on the way
-: starting more proactive, thoughtful work. nothing to show yet.
+: Starting more proactive, thoughtful work. Nothing to show yet.
 
 * Where do they sit?
 * Where do they sit?
@@ -128,19 +128,19 @@ The Lab
 - Camilo
 - Aiman
 - JD
-: You probably already know where JD and Camilo sit
-: Aiman is with Kevaughn
+: You probably already know where JD and Camilo sit.
+: Aiman is with Kevaughn.
 
 HQ 
 
 - Mike
-: Mike is in HQ
+: Mike is in HQ.
 
 Bay Area
 
 - Wes
-: I'll be moving down in the next few weeks
-: We'll rethink about where we sit then
+: I'll be moving down in the next few weeks.
+: We'll rethink about where we all sit then.
 
 
 * Why revisited
@@ -154,13 +154,13 @@ Why _this_team_?
 Contrast our silo with cross-functional teams
 
 - Bottlenecks
-: unattended consequence. server creation artificial bottleneck
+: Unattended consequence. Server creation artificial bottleneck.
 - Scaling (humans, not computers)
-: systems team scaled poorly with rest of engineering
-: cross functional teams adoption, systems focus on frameworks. more time spent on how to do something, than doing it for you
+: Systems Team scaled poorly with rest of Engineering.
+: Cross functional teams adoption, systems focus on frameworks. More time spent on how to do something, than doing it for you.
 - Gatekeeping
-: some of our tools are easy to use, and some aren't. Difficult tools tend to be the dangerous ones.
-: "hire smart people, and get out of their way." but some of our tools have sharp edges.
+: Some of our tools are easy to use, and some aren't. Difficult tools tend to be the dangerous ones.
+: "Hire smart people, and get out of their way." But some of our tools have sharp edges.
 
 * How do they do it?
 
@@ -172,5 +172,5 @@ Contrast our silo with cross-functional teams
 - Python
 - Ansible 
 - HAProxy
-: Used to have corosync and lvs, too brittle/complicated
-: we use IaaS vendors a lot. DNS, Email, User Auth (kinda)
+: Used to have corosync and lvs, too brittle/complicated.
+: We use IaaS vendors a lot. DNS, Email, user authN (kinda).
